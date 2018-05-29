@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test thread-count="1" name="CHROME">
+  <parameter name="browser" value="CHROME"></parameter>
+    <classes>
+      <class name="jenkins.jenkinstest.Login1"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
+
+
+
+
+
+
+
+
+
